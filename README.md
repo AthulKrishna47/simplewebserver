@@ -36,7 +36,7 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-'''
+```
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 HOST = 'localhost'
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print("\nShutting down server.")
         server.server_close()
-'''
+```
 
 ## OUTPUT:
 ![alt text](<Screenshot 2025-10-02 193800.png>)    
